@@ -1,12 +1,14 @@
 public class hello {
-    public static void main(String[] args) {
+int a=100;
+int b=500;
+   hello(int a,int b){
+    this.a=a;
+    this.b=b;
+   }
+   void display(){
+    System.out.println("a  is"+ a +"b is"+ b);
+   }
         
-        constructor s = new constructor();
-        
-        hello h= new hello();
-    }
-    hello(){
-        System.out.println("this is a constructor of class hello ");
     }
     
-}
+
