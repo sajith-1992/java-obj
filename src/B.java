@@ -1,18 +1,14 @@
 class B extends A  {
-    void display(){
-        System.out.println("this is class B");
+    B(){
+        System.out.println("this constructor of b");
     }
-    void basedisplay(){
-
-        super.display();
-    }
-    int a;
-      void sum(){ 
-        a=10;
-    super.a=30;
-    int c=a+super.a;
-    System.out.println(c);
+    B(int b){
+        super(10);
+        System.out.println("this is argument constructor B");
 
     }
     
-}
+
+    }
+    
+
