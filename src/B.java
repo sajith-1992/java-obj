@@ -1,14 +1,10 @@
-class B extends A  {
-    B(){
-        System.out.println("this constructor of b");
+public class B   {
+    void display(){
+        System.out.println("hello");
     }
-    B(int b){
-        super(10);
-        System.out.println("this is argument constructor B");
-
     }
     
 
-    }
+    
     
 
