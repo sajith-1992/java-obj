@@ -12,9 +12,10 @@ public class calculator{
         jf.setLocation(100,100);
 
         JLabel screen=new JLabel("hello");
-        screen.setBounds(5,50,200,50);
+        screen.setBounds(20,40,250,40);
         screen.setBackground(Color.BLUE);
         screen.setOpaque(true);
+        screen.setHorizontalAlignment(SwingConstants.RIGHT);
         jf.add(screen);
         
         
@@ -44,9 +45,10 @@ public class calculator{
         jf.add(b6);
 
 
-        JButton b3=new JButton("3");
+        JButton b3=new JButton("3");  
         b3.setBounds(10,260,50, 50);
         jf.add(b3);
+
 
 
         JButton b2=new JButton("2");
@@ -57,8 +59,34 @@ public class calculator{
         b1.setBounds(160,260,50, 50);
         jf.add(b1);
 
+        JButton star=new JButton("*");
+        star.setBounds(10,320,50, 50);
+        jf.add(star);
 
-        
+        JButton zero=new JButton("0");
+        zero.setBounds(80,320,50, 50);
+        jf.add(zero);
+
+        /*JButton =new JButton("*");
+        multiply.setBounds(160,320,50, 50);
+        jf.add(multiply);*/
+
+
+        JButton div=new JButton("/");
+        div.setBounds(230,100,50, 50);
+        jf.add(div);
+
+
+        JButton subtractionbutton=new JButton("-");
+        subtractionbutton.setBounds(230,180,50, 50);
+        jf.add(subtractionbutton);
+
+
+        JButton additionbutton=new JButton("+");
+        additionbutton.setBounds(230,260,50, 50);
+        jf.add(additionbutton);
+
+      
 
 
         jf.setVisible(true);
